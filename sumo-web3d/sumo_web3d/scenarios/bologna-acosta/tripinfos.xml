@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 05/27/20 22:56:04 by SUMO Version 0.32.0
+<!-- generated on 06/02/20 22:58:53 by SUMO Version 0.32.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -26,7 +26,7 @@
     </emissions>
 
     <traci_server>
-        <remote-port value="64659"/>
+        <remote-port value="49656"/>
     </traci_server>
 
 </configuration>
@@ -84,3 +84,9 @@
     <tripinfo id="Prati_Capraia_100_18" depart="87.00" departLane="b3[0]_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="137.00" arrivalLane="b3[1]b_0" arrivalPos="241.22" arrivalSpeed="13.21" duration="50.00" routeLength="624.73" waitSteps="0" timeLoss="4.65" rerouteNo="0" devices="tripinfo_Prati_Capraia_100_18" vType="passenger2b" speedFactor="1.00" vaporized=""/>
     <tripinfo id="Borgo_20_3" depart="18.00" departLane="b6_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="145.00" arrivalLane="b4[1][1][1]_1" arrivalPos="172.70" arrivalSpeed="13.64" duration="127.00" routeLength="552.91" waitSteps="75" timeLoss="86.67" rerouteNo="0" devices="tripinfo_Borgo_20_3" vType="passenger1" speedFactor="1.00" vaporized=""/>
     <tripinfo id="Prati_Capraia_30_6" depart="29.00" departLane="b3[0]_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="146.00" arrivalLane="b70_0" arrivalPos="61.95" arrivalSpeed="12.78" duration="117.00" routeLength="806.81" waitSteps="37" timeLoss="58.06" rerouteNo="0" devices="tripinfo_Prati_Capraia_30_6" vType="ignoring2b" speedFactor="1.00" vaporized=""/>
+    <tripinfo id="Borgo_20_4" depart="24.00" departLane="b6_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="147.00" arrivalLane="b4[1][1][1]_1" arrivalPos="172.70" arrivalSpeed="12.75" duration="123.00" routeLength="552.91" waitSteps="73" timeLoss="82.77" rerouteNo="0" devices="tripinfo_Borgo_20_4" vType="passenger2a" speedFactor="1.00" vaporized=""/>
+    <tripinfo id="Pepoli_10_4" depart="6.00" departLane="a210_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="149.00" arrivalLane="a204[1][1]_0" arrivalPos="436.47" arrivalSpeed="13.59" duration="143.00" routeLength="1470.66" waitSteps="21" timeLoss="36.56" rerouteNo="0" devices="tripinfo_Pepoli_10_4" vType="passenger2a" speedFactor="1.00" vaporized=""/>
+    <tripinfo id="Malvasia_30_15" depart="72.00" departLane="b52_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="149.00" arrivalLane="b70_0" arrivalPos="61.95" arrivalSpeed="13.06" duration="77.00" routeLength="961.32" waitSteps="0" timeLoss="7.01" rerouteNo="0" devices="tripinfo_Malvasia_30_15" vType="passenger4" speedFactor="1.00" vaporized=""/>
+    <tripinfo id="Turati_3_2" depart="69.00" departLane="a195_0" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="149.00" arrivalLane="a14_0" arrivalPos="90.27" arrivalSpeed="13.43" duration="80.00" routeLength="953.01" waitSteps="0" timeLoss="10.51" rerouteNo="0" devices="tripinfo_Turati_3_2" vType="ignoring5" speedFactor="1.00" vaporized=""/>
+    <tripinfo id="Borgo_20_6" depart="36.00" departLane="b6_1" departPos="0.00" departSpeed="0.00" departDelay="0.00" arrival="150.00" arrivalLane="b4[1][1][1]_1" arrivalPos="172.70" arrivalSpeed="13.69" duration="114.00" routeLength="552.91" waitSteps="62" timeLoss="73.97" rerouteNo="0" devices="tripinfo_Borgo_20_6" vType="passenger3" speedFactor="1.00" vaporized=""/>
+</tripinfos>

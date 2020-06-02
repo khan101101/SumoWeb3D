@@ -1,0 +1,9 @@
+***Starting server on port 49547 ***
+Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/bologna-acosta/joined_buslanes.net.xml'... done (60ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/bologna-acosta/joined_bus_stops.add.xml'... done (1ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/bologna-acosta/joined_detectors.add.xml'... done (2ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/bologna-acosta/joined_vtypes.add.xml'... done (0ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/bologna-acosta/joined_tls.add.xml'... done (1ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/bologna-acosta/acosta-poly.xml'... done (55ms).
+Loading done.
+Simulation started with time: 0.00

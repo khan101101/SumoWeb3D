@@ -5,6 +5,18 @@
         "config_file": "scenarios/bologna-acosta/run.sumo.cfg",
         "is_default": true
     },
+	
+	 {
+        "name": "Frankfurt-Am-Hbf",
+        "description": "Canonical SUMO simulation of Frankfurt-Am-Hbf, with some buildings added.",
+        "config_file": "scenarios/Frankfurt-Am-Hbf/franconf.sumo.cfg",
+        "is_default": false
+    },
+	
+	
+	
+	
+	
     {
         "name": "downtown-toronto",
         "description": "Large simulation of Queens Quay corridor and the Toronto waterfront, includes buildings.",
