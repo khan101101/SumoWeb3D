@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/20 23:40:23 by SUMO Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.net.xml"/>
+        <route-files value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.bicycle.rou.alt.xml,C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.bicycle.trips.xml"/>
+        <additional-files value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.bus.trips.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/trips.trips.xml"/>
+        <save-state.prefix value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/state"/>
+    </output>
+
+    <report>
+        <log value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <phemlight-path value="C:\Users\JTech%20Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/./PHEMlight/"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="50623"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

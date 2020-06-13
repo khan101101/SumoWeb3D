@@ -1,20 +1,20 @@
-***Starting server on port 49663 ***
-Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_buslanes.net.xml'... done (55ms).
+***Starting server on port 51071 ***
+Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_buslanes.net.xml'... done (35ms).
 Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_bus_stops.add.xml'... done (1ms).
 Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_detectors.add.xml'... done (2ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_vtypes.add.xml'... done (1ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_tls.add.xml'... done (1ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/acosta-poly.xml'... done (24ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_vtypes.add.xml'... done (0ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_tls.add.xml'... done (2ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/acosta-poly.xml'... done (30ms).
 Loading done.
 Simulation started with time: 0.00
-Simulation ended at time: 255.00
+Simulation ended at time: 85.00
 Reason: TraCI requested termination.
 Performance: 
- Duration: 29815ms
- Real time factor: 8.55274
- UPS: 2955.156800
+ Duration: 8402ms
+ Real time factor: 10.1166
+ UPS: 1459.176387
 Vehicles: 
- Inserted: 791 (Loaded: 1245)
- Running: 583
- Waiting: 5
+ Inserted: 272 (Loaded: 632)
+ Running: 266
+ Waiting: 0
 

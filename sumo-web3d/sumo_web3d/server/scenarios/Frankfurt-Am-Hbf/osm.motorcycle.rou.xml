@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/20 23:23:06 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.motorcycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.motorcycle.rou.xml"/>
+        <alternatives-output value="osm.motorcycle.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="motorcycle" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="motorcycle"/>
+    <vehicle id="moto6" type="motorcycle" depart="1088.35" departLane="best">
+        <route edges="101325123#0 139015291 301592616"/>
+    </vehicle>
+    <vehicle id="moto15" type="motorcycle" depart="2720.89" departLane="best">
+        <route edges="440834743#2 440834743#3 139110194#0 139110194#1 139110194#2 42368106#0"/>
+    </vehicle>
+</routes>

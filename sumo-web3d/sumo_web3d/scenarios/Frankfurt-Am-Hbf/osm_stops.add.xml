@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/20 23:23:05 by SUMO netconvert Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\JTech%20Global\Sumo\2020-06-13-23-22-59\osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+        <crossings.guess value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="117091092" name="Platz der Republik" lane="60773776#1_0" startPos="58.02" endPos="83.02" friendlyPos="true">
+        <access lane="534884347_0" pos="7.61" friendlyPos="1"/>
+        <access lane="302654043_0" pos="69.24" friendlyPos="1"/>
+        <access lane="534884348_0" pos="7.84" friendlyPos="1"/>
+        <access lane="42367703#1_0" pos="17.42" friendlyPos="1"/>
+        <access lane="604400710_0" pos="67.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="117091105" name="Hohenstaufenstraße" lane="15020661#6_0" startPos="201.31" endPos="226.31" friendlyPos="true">
+        <access lane="301780867#0_0" pos="224.89" friendlyPos="1"/>
+        <access lane="-301592609_0" pos="109.63" friendlyPos="1"/>
+        <access lane="301592609_0" pos="0.00" friendlyPos="1"/>
+        <access lane="64942958_0" pos="121.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="117091111" name="Festhalle/Messe" lane="15020661#7_0" startPos="85.24" endPos="110.24" friendlyPos="true">
+        <access lane="301780867#0_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2682026529" name="Festhalle/Messe" lane="60734103#0_0" startPos="91.95" endPos="291.95" friendlyPos="true">
+        <access lane="301780867#0_0" pos="62.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2682026530" name="Festhalle/Messe" lane="262540237_0" startPos="470.74" endPos="670.74" friendlyPos="true">
+        <access lane="301780867#0_0" pos="62.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3453531157" name="Platz der Republik" lane="12856650_2" startPos="43.07" endPos="58.07" friendlyPos="true"/>
+    <busStop id="760309208" name="Hauptbahnhof" lane="60734103#1_0" startPos="167.94" endPos="349.18" friendlyPos="true">
+        <access lane="42367703#2_0" pos="14.35" friendlyPos="1"/>
+        <access lane="604400711#1_0" pos="64.57" friendlyPos="1"/>
+        <access lane="42367703#1_0" pos="87.62" friendlyPos="1"/>
+        <access lane="302654043_0" pos="0.00" friendlyPos="1"/>
+        <access lane="604400710_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="760646131" name="Hohenstaufenstraße" lane="60773773#1_0" startPos="186.49" endPos="211.49" friendlyPos="true">
+        <access lane="301780867#0_0" pos="234.27" friendlyPos="1"/>
+        <access lane="-301592609_0" pos="109.63" friendlyPos="1"/>
+        <access lane="301592609_0" pos="0.00" friendlyPos="1"/>
+        <access lane="64942958_0" pos="121.74" friendlyPos="1"/>
+        <access lane="301780867#2_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="760646151" name="Festhalle/Messe" lane="60773773#0_0" startPos="97.77" endPos="122.77" friendlyPos="true">
+        <access lane="301780867#0_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="761117290" name="Platz der Republik" lane="60773770_0" startPos="29.37" endPos="41.87" friendlyPos="true">
+        <access lane="42367703#1_0" pos="47.65" friendlyPos="1"/>
+        <access lane="302654043_0" pos="39.91" friendlyPos="1"/>
+        <access lane="604400710_0" pos="40.08" friendlyPos="1"/>
+        <access lane="604400711#1_0" pos="24.31" friendlyPos="1"/>
+        <access lane="539419579_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="767185737" name="Platz der Republik" lane="42367703#1_2" startPos="14.62" endPos="29.62" friendlyPos="true"/>
+</additional>

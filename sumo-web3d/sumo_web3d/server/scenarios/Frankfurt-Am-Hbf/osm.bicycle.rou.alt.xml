@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/20 23:23:06 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.bicycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.bicycle.rou.xml"/>
+        <alternatives-output value="osm.bicycle.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bicycle" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bicycle"/>
+    <vehicle id="bike5" type="bicycle" depart="567.74" departLane="best">
+        <routeDistribution last="0">
+            <route cost="25.94" probability="1.00000000" edges="301592609 440834743#0 440834743#1 440834743#2 440834743#3 139110194#0 139110194#1 139110194#2 42368106#0 -42368106#0 42367702 42368102#0 42368102#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike16" type="bicycle" depart="1816.78" departLane="best">
+        <routeDistribution last="0">
+            <route cost="21.95" probability="1.00000000" edges="42368102#1 64942958"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike17" type="bicycle" depart="1930.33" departLane="best">
+        <routeDistribution last="0">
+            <route cost="16.64" probability="1.00000000" edges="40739235 139015293 301592622 97381230 42368103#0 42368103#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike27" type="bicycle" depart="3065.81" departLane="best">
+        <routeDistribution last="0">
+            <route cost="0.37" probability="1.00000000" edges="42368104#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike30" type="bicycle" depart="3406.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="1.31" probability="1.00000000" edges="97381230 42368103#0 42368103#1 42368103#2 440834742 42368104#0 42368104#1 42368104#2 42368104#3"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

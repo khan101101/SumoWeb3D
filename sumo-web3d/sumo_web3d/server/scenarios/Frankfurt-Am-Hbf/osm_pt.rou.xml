@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-06-13 23:23:05.699560 by $Id$
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="0" edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7" >
+        <stop busStop="117091092" duration="30.00" until="44.0"/>
+        <stop busStop="117091105" duration="30.00" until="107.0"/>
+        <stop busStop="117091111" duration="30.00" until="167.0"/>
+    </route>
+    <route id="1" edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7" >
+        <stop busStop="117091092" duration="30.00" until="78.0"/>
+        <stop busStop="117091105" duration="30.00" until="141.0"/>
+        <stop busStop="117091111" duration="30.00" until="201.0"/>
+    </route>
+    <route id="5" edges="60734103#0 60734103#1" >
+        <stop busStop="2682026529" duration="30.00" until="54.0"/>
+        <stop busStop="760309208" duration="30.00" until="140.0"/>
+    </route>
+    <route id="8" edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7" >
+        <stop busStop="117091092" duration="30.00" until="44.0"/>
+        <stop busStop="117091105" duration="30.00" until="107.0"/>
+        <stop busStop="117091111" duration="30.00" until="167.0"/>
+    </route>
+    <route id="9" edges="60773773#0 60773773#1 60773773#2 60773773#3 60773773#4 60773773#5 60773773#6 60773773#7 60773773#8 60773770" >
+        <stop busStop="760646151" duration="30.00" until="48.0"/>
+        <stop busStop="760646131" duration="30.00" until="109.0"/>
+        <stop busStop="761117290" duration="30.00" until="173.0"/>
+    </route>
+    <route id="10" edges="60773773#0 60773773#1 60773773#2 60773773#3 60773773#4 60773773#5 60773773#6 60773773#7 60773773#8 60773770" >
+        <stop busStop="760646151" duration="30.00" until="65.0"/>
+        <stop busStop="760646131" duration="30.00" until="126.0"/>
+        <stop busStop="761117290" duration="30.00" until="190.0"/>
+    </route>
+    <flow id="pt_tram_16:0" type="pt_tram" route="0" begin="15.0" end="3615.0" period="600.0" line="16:0" departPos="0">
+        <param key="name" value="Tram 16: Offenbach Stadtgrenze =&gt; Ginnheim"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_tram_17:0" type="pt_tram" route="1" begin="22.0" end="3622.0" period="600.0" line="17:0" departPos="0">
+        <param key="name" value="Tram 17: Neu-Isenburg Stadtgrenze =&gt; Rebstockbad"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_subway_U4:0" type="pt_subway" route="5" begin="131.0" end="3731.0" period="600.0" line="U4:0" departPos="0">
+        <param key="name" value="U4: Bockenheimer Warte =&gt; Enkheim"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_tram_EEx:0" type="pt_tram" route="8" begin="253.0" end="3853.0" period="600.0" line="EEx:0" departPos="0">
+        <param key="name" value="Ebbelwei-Express"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_tram_16:1" type="pt_tram" route="9" begin="303.0" end="3903.0" period="600.0" line="16:1" departPos="0">
+        <param key="name" value="Tram 16: Ginnheim =&gt; Offenbach Stadtgrenze"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_tram_17:1" type="pt_tram" route="10" begin="326.0" end="3926.0" period="600.0" line="17:1" departPos="0">
+        <param key="name" value="Tram 17: Rebstockbad =&gt; Neu-Isenburg Stadtgrenze"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+</routes>
