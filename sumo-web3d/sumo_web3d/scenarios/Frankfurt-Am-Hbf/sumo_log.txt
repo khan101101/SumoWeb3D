@@ -1,20 +1,6 @@
-***Starting server on port 51071 ***
-Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_buslanes.net.xml'... done (35ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_bus_stops.add.xml'... done (1ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_detectors.add.xml'... done (2ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_vtypes.add.xml'... done (0ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/joined_tls.add.xml'... done (2ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/acosta-poly.xml'... done (30ms).
+***Starting server on port 51536 ***
+Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.net.xml'... done (24ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.bus.trips.xml'... done (6ms).
 Loading done.
-Simulation started with time: 0.00
-Simulation ended at time: 85.00
-Reason: TraCI requested termination.
-Performance: 
- Duration: 8402ms
- Real time factor: 10.1166
- UPS: 1459.176387
-Vehicles: 
- Inserted: 272 (Loaded: 632)
- Running: 266
- Waiting: 0
-
+Error: Another vehicle type (or distribution) with the id 'bicycle' exists.
+Quitting (on error).

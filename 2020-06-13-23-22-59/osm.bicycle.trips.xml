@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-06-13 23:23:06.608114 by $Id$ via randomTrips.py
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bicycle" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bicycle">
+    </vType>
+    <trip id="bike5" depart="567.74" departLane="best" from="301592609" to="42368102#1" type="bicycle"/>
+    <trip id="bike16" depart="1816.78" departLane="best" from="42368102#1" to="64942958" type="bicycle"/>
+    <trip id="bike17" depart="1930.33" departLane="best" from="40739235" to="42368103#1" type="bicycle"/>
+    <trip id="bike27" depart="3065.81" departLane="best" from="42368104#2" to="42368104#2" type="bicycle"/>
+    <trip id="bike30" depart="3406.46" departLane="best" from="97381230" to="42368104#3" type="bicycle"/>
+</routes>

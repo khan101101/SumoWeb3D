@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/20 23:23:05 by SUMO Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+        <additional-files value="osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="vehroutes.xml"/>
+        <stop-output value="stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <error-log value="trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" type="pt_tram" depart="15.00" departLane="0" arrival="204.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="15.00" probability="0" edges="60773776#1 60773776#1 15020661#6 15020661#7 15020661#7"/>
+            <route edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7"/>
+        </routeDistribution>
+        <stop busStop="117091092" duration="30.00"/>
+        <stop busStop="117091105" duration="30.00"/>
+        <stop busStop="117091111" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="1" type="pt_tram" depart="22.00" departLane="0" arrival="245.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="15.00" probability="0" edges="60773776#1 60773776#1 15020661#6 15020661#7 15020661#7"/>
+            <route edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7"/>
+        </routeDistribution>
+        <stop busStop="117091092" duration="30.00"/>
+        <stop busStop="117091105" duration="30.00"/>
+        <stop busStop="117091111" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="5" type="pt_subway" depart="131.00" departLane="0" arrival="271.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="131.00" probability="0" edges="60734103#0 60734103#0 60734103#1 60734103#1"/>
+            <route edges="60734103#0 60734103#1"/>
+        </routeDistribution>
+        <stop busStop="2682026529" duration="30.00"/>
+        <stop busStop="760309208" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="8" type="pt_tram" depart="253.00" departLane="0" arrival="442.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="253.00" probability="0" edges="60773776#1 60773776#1 15020661#6 15020661#7 15020661#7"/>
+            <route edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7"/>
+        </routeDistribution>
+        <stop busStop="117091092" duration="30.00"/>
+        <stop busStop="117091105" duration="30.00"/>
+        <stop busStop="117091111" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="9" type="pt_tram" depart="303.00" departLane="0" arrival="476.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="303.00" probability="0" edges="60773773#0 60773773#0 60773773#1 60773770 60773770"/>
+            <route edges="60773773#0 60773773#1 60773773#2 60773773#3 60773773#4 60773773#5 60773773#6 60773773#7 60773773#8 60773770"/>
+        </routeDistribution>
+        <stop busStop="760646151" duration="30.00"/>
+        <stop busStop="760646131" duration="30.00"/>
+        <stop busStop="761117290" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="10" type="pt_tram" depart="326.00" departLane="0" arrival="516.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="326.00" probability="0" edges="60773773#0 60773773#0 60773773#1 60773770 60773770"/>
+            <route edges="60773773#0 60773773#1 60773773#2 60773773#3 60773773#4 60773773#5 60773773#6 60773773#7 60773773#8 60773770"/>
+        </routeDistribution>
+        <stop busStop="760646151" duration="30.00"/>
+        <stop busStop="760646131" duration="30.00"/>
+        <stop busStop="761117290" duration="30.00"/>
+    </vehicle>
+
+</routes>

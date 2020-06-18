@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/13/20 23:23:05 by SUMO netconvert Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\JTech%20Global\Sumo\2020-06-13-23-22-59\osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+        <crossings.guess value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <ptLine id="0" name="Tram 16: Offenbach Stadtgrenze =&gt; Ginnheim" line="16" type="tram" completeness="0.10">
+        <route edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7"/>
+        <busStop id="117091092" name="Platz der Republik"/>
+        <busStop id="117091105" name="Hohenstaufenstraße"/>
+        <busStop id="117091111" name="Festhalle/Messe"/>
+    </ptLine>
+    <ptLine id="1" name="Tram 17: Neu-Isenburg Stadtgrenze =&gt; Rebstockbad" line="17" type="tram" completeness="0.17">
+        <route edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7"/>
+        <busStop id="117091092" name="Platz der Republik"/>
+        <busStop id="117091105" name="Hohenstaufenstraße"/>
+        <busStop id="117091111" name="Festhalle/Messe"/>
+    </ptLine>
+    <ptLine id="2" name="Tram 11: Fechenheim =&gt; Höchst" line="11" type="tram" completeness="0.03">
+        <route edges="60773776#1"/>
+        <busStop id="117091092" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="3" name="Tram 14: Mönchhofstraße =&gt; Ernst-May-Platz" line="14" type="tram" completeness="0.04">
+        <route edges="60773770"/>
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="4" name="Tram 21: Stadion =&gt; Hauptbahnhof =&gt; Nied Kirche" line="21" type="tram" completeness="0.04">
+        <route edges="60773776#1"/>
+        <busStop id="117091092" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="5" name="U4: Bockenheimer Warte =&gt; Enkheim" line="U4" type="subway" completeness="0.13">
+        <busStop id="2682026529" name="Festhalle/Messe"/>
+        <busStop id="760309208" name="Hauptbahnhof"/>
+    </ptLine>
+    <ptLine id="6" name="Tram 20: Hauptbahnhof =&gt; Stadion" line="20" type="tram" completeness="0.08">
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="7" name="U4: Enkheim =&gt; Bockenheimer Warte" line="U4" type="subway" completeness="0.07">
+        <busStop id="2682026530" name="Festhalle/Messe"/>
+    </ptLine>
+    <ptLine id="8" name="Ebbelwei-Express" line="EEx" type="tram" completeness="0.10">
+        <route edges="60773776#1 15020661#0 15020661#1 15020661#2 15020661#3 15020661#4 15020661#5 15020661#6 15020661#7"/>
+        <busStop id="117091092" name="Platz der Republik"/>
+        <busStop id="117091105" name="Hohenstaufenstraße"/>
+        <busStop id="117091111" name="Festhalle/Messe"/>
+    </ptLine>
+    <ptLine id="9" name="Tram 16: Ginnheim =&gt; Offenbach Stadtgrenze" line="16" type="tram" completeness="0.10">
+        <route edges="60773773#0 60773773#1 60773773#2 60773773#3 60773773#4 60773773#5 60773773#6 60773773#7 60773773#8 60773770"/>
+        <busStop id="760646151" name="Festhalle/Messe"/>
+        <busStop id="760646131" name="Hohenstaufenstraße"/>
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="10" name="Tram 17: Rebstockbad =&gt; Neu-Isenburg Stadtgrenze" line="17" type="tram" completeness="0.17">
+        <route edges="60773773#0 60773773#1 60773773#2 60773773#3 60773773#4 60773773#5 60773773#6 60773773#7 60773773#8 60773770"/>
+        <busStop id="760646151" name="Festhalle/Messe"/>
+        <busStop id="760646131" name="Hohenstaufenstraße"/>
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="11" name="Tram 20: Stadion = &gt; Hauptbahnhof" line="20" type="tram" completeness="0.08">
+        <route edges="60773770"/>
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="12" name="Tram 21: Nied Kirche =&gt; Hauptbahnhof =&gt; Stadion" line="21" type="tram" completeness="0.04">
+        <route edges="60773770"/>
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="13" name="Tram 11: Höchst =&gt; Fechenheim" line="11" type="tram" completeness="0.02">
+        <route edges="60773770"/>
+        <busStop id="761117290" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="14" name="Tram 14: Ernst-May-Platz =&gt; Mönchhofstraße" line="14" type="tram" completeness="0.04">
+        <route edges="60773776#1"/>
+        <busStop id="117091092" name="Platz der Republik"/>
+    </ptLine>
+    <ptLine id="15" name="Nachtbus n8: Konstablerwache =&gt; Sindlingen =&gt; Konstablerwache" line="n8" type="bus" completeness="0.01">
+        <route edges="12856650"/>
+        <busStop id="3453531157" name="Platz der Republik"/>
+    </ptLine>
+</additional>
