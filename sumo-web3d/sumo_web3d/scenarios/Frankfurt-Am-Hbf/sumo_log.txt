@@ -1,6 +1,6 @@
-***Starting server on port 51536 ***
-Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.net.xml'... done (24ms).
-Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.bus.trips.xml'... done (6ms).
+***Starting server on port 62926 ***
+Loading net-file from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.net.xml'... done (42ms).
+Loading additional-files from 'C:\Users\JTech Global\Documents\GitHub\SumoWeb3D\sumo-web3d\sumo_web3d\server\..\scenarios/Frankfurt-Am-Hbf/osm.bus.trips.xml'... done (7ms).
 Loading done.
 Error: Another vehicle type (or distribution) with the id 'bicycle' exists.
 Quitting (on error).

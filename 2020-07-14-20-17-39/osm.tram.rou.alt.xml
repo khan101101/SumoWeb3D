@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/14/20 20:17:49 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.tram.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.tram.rou.xml"/>
+        <alternatives-output value="osm.tram.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram" vClass="tram"/>
+    <vehicle id="tram0" type="tram" depart="0.00" departLane="best">
+        <routeDistribution last="0">
+            <route cost="97.57" probability="1.00000000" edges="140769046#11 140769046#12 140769046#13 140769046#14 140769046#15 136991216#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram2" type="tram" depart="333.04" departLane="best">
+        <routeDistribution last="0">
+            <route cost="112.86" probability="1.00000000" edges="627457417#0 627457417#3 627457417#4 627457417#5 627457417#6 627457417#7 627457417#8 627457417#9 627457417#10 627457417#11 627457417#12 627457417#13 627457417#14 61785473#1 61785473#2 61785473#3 61785473#4 61785473#5 61785473#6 61785473#7 61785473#8 61785473#9 61785473#10 545234048"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram4" type="tram" depart="666.08" departLane="best">
+        <routeDistribution last="0">
+            <route cost="112.86" probability="1.00000000" edges="627457417#0 627457417#3 627457417#4 627457417#5 627457417#6 627457417#7 627457417#8 627457417#9 627457417#10 627457417#11 627457417#12 627457417#13 627457417#14 61785473#1 61785473#2 61785473#3 61785473#4 61785473#5 61785473#6 61785473#7 61785473#8 61785473#9 61785473#10 545234048"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram6" type="tram" depart="999.12" departLane="best">
+        <routeDistribution last="0">
+            <route cost="220.70" probability="1.00000000" edges="140769046#0 140769046#3 140769046#4 140769046#5 140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 140769046#13 140769046#14 140769046#15 136991216#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram7" type="tram" depart="1165.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="118.42" probability="1.00000000" edges="137219545 140769046#3 140769046#4 140769046#5 140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 140769046#13 140769046#14 140769046#15 136991216#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram8" type="tram" depart="1332.16" departLane="best">
+        <routeDistribution last="0">
+            <route cost="118.42" probability="1.00000000" edges="137219545 140769046#3 140769046#4 140769046#5 140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 140769046#13 140769046#14 140769046#15 136991216#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram10" type="tram" depart="1665.20" departLane="best">
+        <routeDistribution last="0">
+            <route cost="169.24" probability="1.00000000" edges="140769046#0 140769046#3 140769046#4 140769046#5 140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 140769046#13 140769046#14 61785473#2 61785473#3 61785473#4 61785473#5 61785473#6 61785473#7 61785473#8 61785473#9 61785473#10 545234048"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram12" type="tram" depart="1998.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="97.64" probability="1.00000000" edges="140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 140769046#13 140769046#14 140769046#15 136991216#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram13" type="tram" depart="2164.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="134.58" probability="1.00000000" edges="140769046#0 140769046#3 140769046#4 140769046#5 140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 136991213#0 136991213#1 627457417#12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram14" type="tram" depart="2331.27" departLane="best">
+        <routeDistribution last="0">
+            <route cost="221.14" probability="1.00000000" edges="628383147#0 34169448#0 34169448#1 34169448#2 34169448#3 34169448#4 34169448#5 34169448#6 34169448#7 34169448#8 34169448#9 34169448#10 34169448#11 34169448#12 34169448#13 34169448#14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram15" type="tram" depart="2497.79" departLane="best">
+        <routeDistribution last="0">
+            <route cost="220.70" probability="1.00000000" edges="140769046#0 140769046#3 140769046#4 140769046#5 140769046#6 140769046#7 140769046#8 140769046#9 140769046#10 140769046#11 140769046#12 140769046#13 140769046#14 140769046#15 136991216#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram17" type="tram" depart="2830.83" departLane="best">
+        <routeDistribution last="0">
+            <route cost="221.14" probability="1.00000000" edges="628383147#0 34169448#0 34169448#1 34169448#2 34169448#3 34169448#4 34169448#5 34169448#6 34169448#7 34169448#8 34169448#9 34169448#10 34169448#11 34169448#12 34169448#13 34169448#14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram19" type="tram" depart="3163.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="212.18" probability="1.00000000" edges="627457417#0 627457417#3 627457417#4 627457417#5 627457417#6 627457417#7 627457417#8 627457417#9 627457417#10 627457417#11 627457417#12 627457417#13 34169448#1 34169448#2 34169448#3 34169448#4 34169448#5 34169448#6 34169448#7 34169448#8 34169448#9 34169448#10 34169448#11 34169448#12 34169448#13 34169448#14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram20" type="tram" depart="3330.39" departLane="best">
+        <routeDistribution last="0">
+            <route cost="97.65" probability="1.00000000" edges="628383147#0 34169448#0 34169448#1 34169448#2 34169448#3 34169448#4 34169448#5"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/14/20 20:17:48 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.bicycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.bicycle.rou.xml"/>
+        <alternatives-output value="osm.bicycle.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bicycle" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="bicycle"/>
+    <vehicle id="bike0" type="bicycle" depart="0.00" departLane="best">
+        <routeDistribution last="0">
+            <route cost="96.03" probability="1.00000000" edges="4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 -140772396#7 -140772396#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike2" type="bicycle" depart="29.06" departLane="best">
+        <routeDistribution last="0">
+            <route cost="64.31" probability="1.00000000" edges="4756456 130784151#0 130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike3" type="bicycle" depart="43.59" departLane="best">
+        <routeDistribution last="0">
+            <route cost="65.80" probability="1.00000000" edges="59851743#0 314789433#0 4824697#0 4824697#1 4824697#2 4824697#3 4824695#1 -4824695#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike4" type="bicycle" depart="58.12" departLane="best">
+        <routeDistribution last="0">
+            <route cost="25.56" probability="1.00000000" edges="152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 140772396#8 -140772396#8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike5" type="bicycle" depart="72.65" departLane="best">
+        <routeDistribution last="0">
+            <route cost="62.31" probability="1.00000000" edges="137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike6" type="bicycle" depart="87.18" departLane="best">
+        <routeDistribution last="0">
+            <route cost="61.09" probability="1.00000000" edges="-140772396#9 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657869#0 84657869#1 84657869#2 314789432 138347505#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike8" type="bicycle" depart="116.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="58.76" probability="1.00000000" edges="137275200#1 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 37035107#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike9" type="bicycle" depart="130.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="240.99" probability="1.00000000" edges="4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike10" type="bicycle" depart="145.29" departLane="best">
+        <routeDistribution last="0">
+            <route cost="100.86" probability="1.00000000" edges="4824703#1 4824703#2 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike11" type="bicycle" depart="159.82" departLane="best">
+        <routeDistribution last="0">
+            <route cost="206.25" probability="1.00000000" edges="140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike12" type="bicycle" depart="174.35" departLane="best">
+        <routeDistribution last="0">
+            <route cost="149.26" probability="1.00000000" edges="84657869#0 84657869#1 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142517768#8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike13" type="bicycle" depart="188.88" departLane="best">
+        <routeDistribution last="0">
+            <route cost="147.58" probability="1.00000000" edges="-4218501#0 4828840#0 4828840#1 4828840#2 4828840#3 149539965#4 371146247 371146249 4218426#4 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 4824697#0 4824697#1 4824697#2 4824697#3 -4824702#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike14" type="bicycle" depart="203.41" departLane="best">
+        <routeDistribution last="0">
+            <route cost="94.02" probability="1.00000000" edges="4828723#3 84657865 98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867 314994947#0 314994947#1 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1 37307581#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike15" type="bicycle" depart="217.94" departLane="best">
+        <routeDistribution last="0">
+            <route cost="194.07" probability="1.00000000" edges="4824703#2 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4760369#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike16" type="bicycle" depart="232.47" departLane="best">
+        <routeDistribution last="0">
+            <route cost="86.25" probability="1.00000000" edges="265499406#1 439027698#0 439027698#1 314789427 88111450 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike20" type="bicycle" depart="290.59" departLane="best">
+        <routeDistribution last="0">
+            <route cost="43.48" probability="1.00000000" edges="4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 -142517768#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike21" type="bicycle" depart="305.12" departLane="best">
+        <routeDistribution last="0">
+            <route cost="7.63" probability="1.00000000" edges="138347489#2 138347489#3 138347489#4 140772448#0 140772448#1 140772448#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike23" type="bicycle" depart="334.17" departLane="best">
+        <routeDistribution last="0">
+            <route cost="24.50" probability="1.00000000" edges="-4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 -140772396#7 140772396#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike25" type="bicycle" depart="363.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="228.54" probability="1.00000000" edges="142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 138478958#4 138478958#5 138347529#0 138347529#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike27" type="bicycle" depart="392.29" departLane="best">
+        <routeDistribution last="0">
+            <route cost="191.58" probability="1.00000000" edges="4221194#4 4221194#5 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 395869969"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike28" type="bicycle" depart="406.82" departLane="best">
+        <routeDistribution last="0">
+            <route cost="171.42" probability="1.00000000" edges="-96136747#1 -96136747#0 96136747#0 96136747#1 371146256 84657867 314994947#0 314994947#1 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4760369#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike30" type="bicycle" depart="435.88" departLane="best">
+        <routeDistribution last="0">
+            <route cost="151.45" probability="1.00000000" edges="98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867 314994947#0 314994947#1 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 27557419#2 27557419#3 90697745 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 138419768#1 438648464"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike32" type="bicycle" depart="464.94" departLane="best">
+        <routeDistribution last="0">
+            <route cost="44.06" probability="1.00000000" edges="4828723#1 84657870#0 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 4824697#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike33" type="bicycle" depart="479.47" departLane="best">
+        <routeDistribution last="0">
+            <route cost="25.02" probability="1.00000000" edges="138347489#3 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 140772396#8 140772396#9 -140772396#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike34" type="bicycle" depart="494.00" departLane="best">
+        <routeDistribution last="0">
+            <route cost="63.19" probability="1.00000000" edges="140772396#10 -140772396#10 -140772396#9 -140772396#8 -140772396#7 -140772396#6 -140772396#5 -140772396#4 -140772396#3 140772396#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike36" type="bicycle" depart="523.06" departLane="best">
+        <routeDistribution last="0">
+            <route cost="129.27" probability="1.00000000" edges="4836593 84657862#2 4828724#0 4828724#1 4828724#2 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517766#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike37" type="bicycle" depart="537.59" departLane="best">
+        <routeDistribution last="0">
+            <route cost="67.40" probability="1.00000000" edges="43324938#2 43324938#3 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 152445636#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike38" type="bicycle" depart="552.12" departLane="best">
+        <routeDistribution last="0">
+            <route cost="143.40" probability="1.00000000" edges="671832297#0 -671832297#0 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 209114520#7 209114520#8 209114520#9 209114520#10 209114520#11 209114520#12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike40" type="bicycle" depart="581.17" departLane="best">
+        <routeDistribution last="0">
+            <route cost="196.91" probability="1.00000000" edges="314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 138478958#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike41" type="bicycle" depart="595.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="76.17" probability="1.00000000" edges="314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike42" type="bicycle" depart="610.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="106.23" probability="1.00000000" edges="148711386 209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 209114514#2 209114514#3 439942512 335993897 209114516 209114520#0 209114520#1 209114520#2 209114520#3 138419764"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike44" type="bicycle" depart="639.29" departLane="best">
+        <routeDistribution last="0">
+            <route cost="119.94" probability="1.00000000" edges="-395869969 -138419767#0 130547039 130547038 4756455#4 4760369#0 4760369#1 4760369#2 -142517768#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike45" type="bicycle" depart="653.82" departLane="best">
+        <routeDistribution last="0">
+            <route cost="222.53" probability="1.00000000" edges="-4824695#1 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4221194#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike46" type="bicycle" depart="668.35" departLane="best">
+        <routeDistribution last="0">
+            <route cost="96.23" probability="1.00000000" edges="4824697#3 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike47" type="bicycle" depart="682.88" departLane="best">
+        <routeDistribution last="0">
+            <route cost="12.29" probability="1.00000000" edges="-149540140#3 -149540140#2 -149540140#1 149540140#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike49" type="bicycle" depart="711.94" departLane="best">
+        <routeDistribution last="0">
+            <route cost="190.43" probability="1.00000000" edges="84657872#0 -84657872#0 4828723#0 4828723#1 4828723#2 4828723#3 84657865 98428996#0 98428996#1 98428996#2 -371146256 -4218501#1 -4218501#0 4828840#0 4828840#1 4828840#2 4828840#3 4828841#0 4828841#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike52" type="bicycle" depart="755.53" departLane="best">
+        <routeDistribution last="0">
+            <route cost="48.76" probability="1.00000000" edges="138419770 265499402#3 265499402#4 265499402#5 439027697"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike53" type="bicycle" depart="770.06" departLane="best">
+        <routeDistribution last="0">
+            <route cost="86.05" probability="1.00000000" edges="-4824698#0 -4824704#2 -4824704#1 -4824704#0 4824702#0 4824702#1 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike54" type="bicycle" depart="784.58" departLane="best">
+        <routeDistribution last="0">
+            <route cost="60.71" probability="1.00000000" edges="209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 -140772396#7 209114515#2 209114515#3 439942510 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657869#0 84657869#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike55" type="bicycle" depart="799.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="220.32" probability="1.00000000" edges="4834297 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 138478958#4 138478958#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike58" type="bicycle" depart="842.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="229.45" probability="1.00000000" edges="138478958#0 138478958#1 138478958#2 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 138419768#1 438648464"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike60" type="bicycle" depart="871.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="85.26" probability="1.00000000" edges="4824568#0 130764244#1 4756455#2 -130547038 4756454#0 4756454#1 314789426#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike62" type="bicycle" depart="900.82" departLane="best">
+        <routeDistribution last="0">
+            <route cost="127.62" probability="1.00000000" edges="-130547038 4756454#0 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike63" type="bicycle" depart="915.35" departLane="best">
+        <routeDistribution last="0">
+            <route cost="57.22" probability="1.00000000" edges="-140772396#6 140772396#6 140772396#7 140772396#8 140772396#9 140772396#10 209114517 209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1 -84657872#0 4828723#0 84657862#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike64" type="bicycle" depart="929.88" departLane="best">
+        <routeDistribution last="0">
+            <route cost="56.48" probability="1.00000000" edges="4877725 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 -84657872#0 4828723#0 4828723#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike65" type="bicycle" depart="944.41" departLane="best">
+        <routeDistribution last="0">
+            <route cost="183.86" probability="1.00000000" edges="138478958#4 138478958#5 138347529#0 130737743 138347514#0 138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 138347489#5 138347489#6 4824703#1 4824703#2 149540140#0 -149540140#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike66" type="bicycle" depart="958.94" departLane="best">
+        <routeDistribution last="0">
+            <route cost="105.00" probability="1.00000000" edges="4836593 84657862#2 4828724#0 4828724#1 4828724#2 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 59851743#1 314789436#1 84657866#0 84657866#1 84657866#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike67" type="bicycle" depart="973.47" departLane="best">
+        <routeDistribution last="0">
+            <route cost="156.28" probability="1.00000000" edges="-37035107#1 -37035107#0 -142517768#5 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 265499402#5 439027697 259409010#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike72" type="bicycle" depart="1046.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="188.21" probability="1.00000000" edges="152445636#1 152445636#2 152445636#3 140772410 209114517 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 4824568#2 138347514#0 138347529#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike73" type="bicycle" depart="1060.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="142.18" probability="1.00000000" edges="27557419#0 27557419#1 140772396#6 140772396#7 140772396#8 140772396#9 140772396#10 209114517 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4760369#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike74" type="bicycle" depart="1075.17" departLane="best">
+        <routeDistribution last="0">
+            <route cost="151.76" probability="1.00000000" edges="130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike75" type="bicycle" depart="1089.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="74.22" probability="1.00000000" edges="98428996#2 -371146256 371146256 84657867 314994947#0 314994947#1 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 140772396#6 140772396#7 209114514#2 209114514#3 439942512"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike76" type="bicycle" depart="1104.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="54.39" probability="1.00000000" edges="153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 209114515#2 209114515#3 439942510 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 27557419#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike77" type="bicycle" depart="1118.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="220.55" probability="1.00000000" edges="-4824702#2 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 138419767#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike78" type="bicycle" depart="1133.29" departLane="best">
+        <routeDistribution last="0">
+            <route cost="17.87" probability="1.00000000" edges="140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike79" type="bicycle" depart="1147.82" departLane="best">
+        <routeDistribution last="0">
+            <route cost="78.94" probability="1.00000000" edges="138347489#3 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897 209114516 209114520#0 209114520#1 209114520#2 209114520#3 138419764"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike80" type="bicycle" depart="1162.35" departLane="best">
+        <routeDistribution last="0">
+            <route cost="216.94" probability="1.00000000" edges="-153897385 43324938#2 43324938#3 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4221194#4 4221194#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike81" type="bicycle" depart="1176.88" departLane="best">
+        <routeDistribution last="0">
+            <route cost="6.39" probability="1.00000000" edges="138347489#3 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 671832297#0 671832297#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike82" type="bicycle" depart="1191.41" departLane="best">
+        <routeDistribution last="0">
+            <route cost="109.77" probability="1.00000000" edges="4828726#1 4828724#0 4828724#1 4828724#2 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 98428996#0 98428996#1 98428996#2 -371146256"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike83" type="bicycle" depart="1205.94" departLane="best">
+        <routeDistribution last="0">
+            <route cost="132.69" probability="1.00000000" edges="138347498 59851743#1 59851743#2 59851743#3 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142517768#8 142517768#10 454115422#0 454115422#1 454115422#2 454115422#3 454115422#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike84" type="bicycle" depart="1220.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="58.59" probability="1.00000000" edges="132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike85" type="bicycle" depart="1234.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="101.38" probability="1.00000000" edges="84657862#1 84657862#2 4828724#0 4828724#1 4828724#2 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 59851743#1 314789436#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike86" type="bicycle" depart="1249.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="117.46" probability="1.00000000" edges="209114515#3 439942510 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 43324938#1 43324938#2 43324938#3 -4824702#2 -4824702#1 -4824702#0 4824704#0 4824704#1 4824704#2 4824698#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike87" type="bicycle" depart="1264.05" departLane="best">
+        <routeDistribution last="0">
+            <route cost="54.48" probability="1.00000000" edges="4824703#2 4824703#5 4824702#1 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 138347489#5 138347489#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike88" type="bicycle" depart="1278.58" departLane="best">
+        <routeDistribution last="0">
+            <route cost="24.36" probability="1.00000000" edges="-4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike89" type="bicycle" depart="1293.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="99.72" probability="1.00000000" edges="152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 209114514#2 209114514#3 439942512 335993897 209114516 209114520#0 209114520#1 209114520#2 209114520#3 209114520#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike90" type="bicycle" depart="1307.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="66.66" probability="1.00000000" edges="4756454#0 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike91" type="bicycle" depart="1322.17" departLane="best">
+        <routeDistribution last="0">
+            <route cost="58.61" probability="1.00000000" edges="96136747#1 371146256 84657867 314994947#0 314994947#1 138347498 314789433#0 4824697#0 4824697#1 4824697#2 4824697#3 -4824702#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike92" type="bicycle" depart="1336.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="165.46" probability="1.00000000" edges="149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 142517769#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike94" type="bicycle" depart="1365.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="48.32" probability="1.00000000" edges="130764244#0 130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 140772396#9 140772396#10 209114517"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike95" type="bicycle" depart="1380.29" departLane="best">
+        <routeDistribution last="0">
+            <route cost="24.92" probability="1.00000000" edges="152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 140772396#8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike97" type="bicycle" depart="1409.35" departLane="best">
+        <routeDistribution last="0">
+            <route cost="192.52" probability="1.00000000" edges="171934808#0 171934808#4 171934808#5 -84657872#1 -84657872#0 4828723#0 4828723#1 4828723#2 4828723#3 84657865 98428996#0 98428996#1 98428996#2 -371146256 -4218501#1 -4218501#0 4828840#0 4828840#1 4828840#2 4828840#3 4828841#0 4828841#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike98" type="bicycle" depart="1423.88" departLane="best">
+        <routeDistribution last="0">
+            <route cost="107.02" probability="1.00000000" edges="27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 -142517768#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike103" type="bicycle" depart="1496.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="224.55" probability="1.00000000" edges="149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 138347489#5 138347489#6 4824703#1 4824703#2 149540140#0 -149540140#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike104" type="bicycle" depart="1511.05" departLane="best">
+        <routeDistribution last="0">
+            <route cost="73.28" probability="1.00000000" edges="142517768#4 -142517768#5 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1 -84657872#0 4828723#0 4828723#1 4828723#2 4828723#3 84657865 98428996#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike106" type="bicycle" depart="1540.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="26.87" probability="1.00000000" edges="209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike107" type="bicycle" depart="1554.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="166.94" probability="1.00000000" edges="84657869#0 84657869#1 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142517768#8 142517768#10 -142356187#1 -142356187#0 -142356185#1 98638605#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike109" type="bicycle" depart="1583.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="19.13" probability="1.00000000" edges="-682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike110" type="bicycle" depart="1598.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="42.56" probability="1.00000000" edges="84657870#2 84657869#2 84657869#3 314789438#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike111" type="bicycle" depart="1612.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="177.63" probability="1.00000000" edges="27557419#1 140772396#6 140772396#7 140772396#8 140772396#9 140772396#10 209114517 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824567#0 4824567#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike112" type="bicycle" depart="1627.29" departLane="best">
+        <routeDistribution last="0">
+            <route cost="107.60" probability="1.00000000" edges="-149540140#0 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867 314994947#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike114" type="bicycle" depart="1656.35" departLane="best">
+        <routeDistribution last="0">
+            <route cost="126.81" probability="1.00000000" edges="-682284020 -4824704#0 4824702#0 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 -84657872#0 4828723#0 4828723#1 84657870#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike115" type="bicycle" depart="1670.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="78.14" probability="1.00000000" edges="-37035107#0 -142517768#5 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike116" type="bicycle" depart="1685.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="202.98" probability="1.00000000" edges="314789436#0 59851743#2 59851743#3 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike117" type="bicycle" depart="1699.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="44.16" probability="1.00000000" edges="138347489#6 4824703#1 4824703#2 4824703#5 4824702#1 -682283993#4 -682283993#3 -682283993#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike119" type="bicycle" depart="1728.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="123.55" probability="1.00000000" edges="314789436#0 59851743#2 59851743#3 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike120" type="bicycle" depart="1743.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="122.02" probability="1.00000000" edges="149540140#2 -149540140#2 -149540140#1 -149540140#0 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867 314994947#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike123" type="bicycle" depart="1787.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="34.93" probability="1.00000000" edges="138347498 59851743#1 59851743#2 59851743#3 84657864#2 314789430 84657872#0 84657872#1 152445636#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike124" type="bicycle" depart="1801.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="140.69" probability="1.00000000" edges="439942510 265499418 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142517768#8 142517768#10 -142356187#1 -142356187#0 142356187#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike125" type="bicycle" depart="1816.17" departLane="best">
+        <routeDistribution last="0">
+            <route cost="59.70" probability="1.00000000" edges="140772396#10 209114517 209114498#0 209114498#1 142517768#0 142517768#1 4824567#2 4824567#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike126" type="bicycle" depart="1830.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="210.65" probability="1.00000000" edges="-25885524 149540118 627278688 -4824707 -4824695#1 -4824702#2 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 209114520#7 209114520#8 209114520#9 209114520#10 209114520#11 209114520#12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike127" type="bicycle" depart="1845.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="32.22" probability="1.00000000" edges="98638605#2 98638605#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike128" type="bicycle" depart="1859.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="285.73" probability="1.00000000" edges="-25885524 25885524 96136748#0 96136748#1 96136747#0 96136747#1 371146256 84657867 314994947#0 314994947#1 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 4824568#2 138347514#0 138347529#2 138347533#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike131" type="bicycle" depart="1903.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="162.45" probability="1.00000000" edges="142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike132" type="bicycle" depart="1917.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="137.60" probability="1.00000000" edges="4824710 25885524 96136748#0 96136748#1 96136747#0 96136747#1 371146256 84657867 314994947#0 314994947#1 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike133" type="bicycle" depart="1932.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="62.42" probability="1.00000000" edges="37035107#0 -37035107#0 -142517768#5 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1 -84657872#0 4828723#0 4828723#1 4828723#2 4828723#3 84657865 98428996#0 98428996#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike134" type="bicycle" depart="1946.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="238.25" probability="1.00000000" edges="43324938#1 43324938#2 43324938#3 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike135" type="bicycle" depart="1961.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="215.42" probability="1.00000000" edges="4824703#8 -4824698#1 -4824698#0 -4824704#2 -4824704#1 -4824704#0 4824702#0 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142517768#8 142517768#10 -142356187#1 -142356187#0 -142356185#1 142356185#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike136" type="bicycle" depart="1975.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="67.84" probability="1.00000000" edges="438898636 4824702#0 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike137" type="bicycle" depart="1990.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="47.52" probability="1.00000000" edges="-4824707 -4824695#1 -4824702#2 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike140" type="bicycle" depart="2034.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="194.24" probability="1.00000000" edges="4726265 665610741 450074244 209114514#0 209114514#1 140772396#8 140772396#9 140772396#10 209114517 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 4824568#2 138347514#0 138347514#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike141" type="bicycle" depart="2048.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="323.69" probability="1.00000000" edges="4218501#0 4218501#1 371146256 84657867 314994947#0 314994947#1 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 138478958#4 138478958#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike143" type="bicycle" depart="2077.70" departLane="best">
+        <routeDistribution last="0">
+            <route cost="110.62" probability="1.00000000" edges="4828723#2 4828723#3 84657865 98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867 314994947#0 314994947#1 138347498 314789433#0 4824697#0 4824697#1 4824697#2 4824697#3 -4824702#2 -4824702#1 -4824702#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike144" type="bicycle" depart="2092.23" departLane="best">
+        <routeDistribution last="0">
+            <route cost="24.32" probability="1.00000000" edges="152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 -140772396#7 140772396#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike145" type="bicycle" depart="2106.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="114.13" probability="1.00000000" edges="-130764246#0 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 43324938#1 43324938#2 43324938#3 4824695#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike146" type="bicycle" depart="2121.28" departLane="best">
+        <routeDistribution last="0">
+            <route cost="265.20" probability="1.00000000" edges="4218501#0 4218501#1 371146256 84657867 314994947#0 314994947#1 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 138478958#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike148" type="bicycle" depart="2150.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="235.30" probability="1.00000000" edges="153897364#0 153897364#2 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike149" type="bicycle" depart="2164.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="129.42" probability="1.00000000" edges="-260923013#0 4760369#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 314789436#0 59851743#2 59851743#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike151" type="bicycle" depart="2193.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="142.28" probability="1.00000000" edges="4824711 682283961 4824697#3 132964155#0 132964155#1 211674510 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867 314994947#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike152" type="bicycle" depart="2208.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="208.66" probability="1.00000000" edges="-682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -773759798"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike153" type="bicycle" depart="2222.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="141.82" probability="1.00000000" edges="138478958#5 138347529#0 130737743 138347514#0 138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4824557#0 4824557#1 148711386 209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike154" type="bicycle" depart="2237.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="194.02" probability="1.00000000" edges="4824698#1 4824698#2 4824708 96136748#0 96136748#1 96136747#0 96136747#1 -4218501#1 -4218501#0 4828840#0 4828840#1 4828840#2 4828840#3 4828841#0 4828841#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike155" type="bicycle" depart="2252.05" departLane="best">
+        <routeDistribution last="0">
+            <route cost="185.30" probability="1.00000000" edges="59851743#3 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 4824568#2 138347514#0 138347529#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike156" type="bicycle" depart="2266.58" departLane="best">
+        <routeDistribution last="0">
+            <route cost="145.78" probability="1.00000000" edges="138347529#1 138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 43324938#1 43324938#2 43324938#3 -4824702#2 -4824702#1 -4824702#0 4824704#0 4824704#1 4824704#2 -4824704#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike157" type="bicycle" depart="2281.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="69.21" probability="1.00000000" edges="4824695#1 -4824695#1 132964155#0 132964155#1 211674510 314789435#1 314789436#0 59851743#2 59851743#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike158" type="bicycle" depart="2295.64" departLane="best">
+        <routeDistribution last="0">
+            <route cost="171.61" probability="1.00000000" edges="149539965#0 149539965#1 149539965#4 371146247 371146249 4218426#4 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike159" type="bicycle" depart="2310.17" departLane="best">
+        <routeDistribution last="0">
+            <route cost="89.77" probability="1.00000000" edges="-682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1 -84657872#0 4828723#0 84657862#0 84657862#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike160" type="bicycle" depart="2324.69" departLane="best">
+        <routeDistribution last="0">
+            <route cost="102.48" probability="1.00000000" edges="4828840#0 4828840#1 4828840#2 4828840#3 149539965#4 371146247 371146249 4218426#4 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 27557419#2 27557419#3 90697745"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike161" type="bicycle" depart="2339.22" departLane="best">
+        <routeDistribution last="0">
+            <route cost="49.46" probability="1.00000000" edges="4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 314789436#0 59851743#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike162" type="bicycle" depart="2353.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="104.13" probability="1.00000000" edges="-140772396#8 140772396#8 140772396#9 140772396#10 209114517 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 4760369#3 4760369#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike163" type="bicycle" depart="2368.28" departLane="best">
+        <routeDistribution last="0">
+            <route cost="41.78" probability="1.00000000" edges="140772410 209114517 209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1 -84657872#0 4828723#0 84657862#0 84657862#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike164" type="bicycle" depart="2382.81" departLane="best">
+        <routeDistribution last="0">
+            <route cost="208.43" probability="1.00000000" edges="4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4834297"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike165" type="bicycle" depart="2397.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="64.70" probability="1.00000000" edges="4824703#5 4824702#1 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 140772396#8 140772396#9 140772396#10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike166" type="bicycle" depart="2411.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="55.54" probability="1.00000000" edges="4824697#1 4824697#2 4824697#3 4824695#1 4824707 -4824707"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike167" type="bicycle" depart="2426.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="7.16" probability="1.00000000" edges="4828841#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike168" type="bicycle" depart="2440.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="74.42" probability="1.00000000" edges="138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 138347489#5 138347489#6 4824703#1 4824703#2 4824703#5 -4824702#0 4824704#0 4824704#1 4824704#2 4824704#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike170" type="bicycle" depart="2469.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="163.16" probability="1.00000000" edges="4824698#1 -4824698#1 -4824698#0 -4824704#2 -4824704#1 -4824704#0 4824702#0 4824702#1 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 138419768#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike171" type="bicycle" depart="2484.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="93.90" probability="1.00000000" edges="-140772396#8 -140772396#7 209114515#2 209114515#3 439942510 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 138347489#5 138347489#6 138347489#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike172" type="bicycle" depart="2499.05" departLane="best">
+        <routeDistribution last="0">
+            <route cost="164.52" probability="1.00000000" edges="140772396#8 140772396#9 140772396#10 209114517 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4834297"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike173" type="bicycle" depart="2513.58" departLane="best">
+        <routeDistribution last="0">
+            <route cost="66.47" probability="1.00000000" edges="84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 140772396#6 140772396#7 140772396#8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike174" type="bicycle" depart="2528.11" departLane="best">
+        <routeDistribution last="0">
+            <route cost="78.96" probability="1.00000000" edges="4221194#0 4221194#1 4221194#2 4834297 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike176" type="bicycle" depart="2557.16" departLane="best">
+        <routeDistribution last="0">
+            <route cost="73.70" probability="1.00000000" edges="84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 682283993#0 -682283993#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike177" type="bicycle" depart="2571.69" departLane="best">
+        <routeDistribution last="0">
+            <route cost="75.79" probability="1.00000000" edges="84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike179" type="bicycle" depart="2600.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="69.88" probability="1.00000000" edges="-4824572 4824573#0 4824573#1 4824573#2 4824573#3 153897364#2 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike180" type="bicycle" depart="2615.28" departLane="best">
+        <routeDistribution last="0">
+            <route cost="92.99" probability="1.00000000" edges="4756454#0 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517766#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike181" type="bicycle" depart="2629.81" departLane="best">
+        <routeDistribution last="0">
+            <route cost="110.35" probability="1.00000000" edges="314994947#1 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 27557419#2 27557419#3 90697745 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 265499402#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike182" type="bicycle" depart="2644.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="159.58" probability="1.00000000" edges="142517768#8 142517768#10 -142517768#10 -142517768#9 -142517768#7 -142517768#6 -142517768#5 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 -84657872#1 -84657872#0 4828723#0 4828723#1 84657870#0 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike183" type="bicycle" depart="2658.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="118.76" probability="1.00000000" edges="138347533#0 -130764246#0 130764244#0 130764244#1 4756455#2 -130547038 4756454#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike185" type="bicycle" depart="2687.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="171.28" probability="1.00000000" edges="265499418 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4756456"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike186" type="bicycle" depart="2702.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="87.76" probability="1.00000000" edges="4760369#0 4760369#1 4760369#2 142517768#7 142517768#8 142517768#10 454115422#0 454115422#1 454115422#2 454115422#3 454115422#4 454115422#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike187" type="bicycle" depart="2716.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="188.27" probability="1.00000000" edges="142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 130547039 130547038 4756455#4 4760369#0 4760369#1 4760369#2 -142517768#6 37035107#0 -37035107#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike188" type="bicycle" depart="2731.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="128.03" probability="1.00000000" edges="438898636 4824702#0 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike189" type="bicycle" depart="2746.05" departLane="best">
+        <routeDistribution last="0">
+            <route cost="283.42" probability="1.00000000" edges="140772396#0 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 209114515#2 209114515#3 439942510 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 -4218501#1 -4218501#0 4828840#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike190" type="bicycle" depart="2760.58" departLane="best">
+        <routeDistribution last="0">
+            <route cost="121.52" probability="1.00000000" edges="4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142517768#8 142517768#10 -142356187#1 -142356187#0 142356187#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike191" type="bicycle" depart="2775.10" departLane="best">
+        <routeDistribution last="0">
+            <route cost="119.82" probability="1.00000000" edges="138478958#5 138347529#0 130737743 138347514#0 138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 -140772396#7 -140772396#6 -140772396#5 -140772396#4 -140772396#3 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike192" type="bicycle" depart="2789.63" departLane="best">
+        <routeDistribution last="0">
+            <route cost="161.47" probability="1.00000000" edges="149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 -140772396#7 -140772396#6 -140772396#5 -140772396#4 -140772396#3 140772448#3 140772448#4 140772448#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike194" type="bicycle" depart="2818.69" departLane="best">
+        <routeDistribution last="0">
+            <route cost="52.79" probability="1.00000000" edges="84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 140772396#8 4652507#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike195" type="bicycle" depart="2833.22" departLane="best">
+        <routeDistribution last="0">
+            <route cost="96.34" probability="1.00000000" edges="627278688 -4824707 4824708 96136748#0 96136748#1 96136747#0 96136747#1 142517769#0 142517769#1 142517769#2 371146247 371146249 4218426#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike196" type="bicycle" depart="2847.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="102.34" probability="1.00000000" edges="138478958#1 138478958#2 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike197" type="bicycle" depart="2862.28" departLane="best">
+        <routeDistribution last="0">
+            <route cost="148.60" probability="1.00000000" edges="-130547038 4756454#0 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 140772448#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike198" type="bicycle" depart="2876.81" departLane="best">
+        <routeDistribution last="0">
+            <route cost="114.35" probability="1.00000000" edges="153897364#0 153897364#2 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 209114515#2 209114515#3 439942510 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657869#0 84657869#1 84657869#2 84657869#3 314789438#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike199" type="bicycle" depart="2891.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="108.64" probability="1.00000000" edges="43324938#2 43324938#3 -4824702#2 -682283993#4 -682283993#3 -682283993#2 -682283993#1 -682283993#0 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897 209114516 209114520#0 209114520#1 209114520#2 209114520#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike200" type="bicycle" depart="2905.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="221.57" probability="1.00000000" edges="153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 4824568#2 138347514#0 138347529#2 138347533#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike201" type="bicycle" depart="2920.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="59.34" probability="1.00000000" edges="209114515#3 439942510 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 671832297#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike202" type="bicycle" depart="2934.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="80.29" probability="1.00000000" edges="4824698#1 -4824698#1 -4824698#0 -4824704#2 -4824704#1 -4824704#0 4824702#0 4824702#1 4824702#2 132964155#0 132964155#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike203" type="bicycle" depart="2949.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="83.13" probability="1.00000000" edges="-37035107#1 -37035107#0 -142517768#5 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 -140772396#7 209114515#2 209114515#3 439942510 265499418"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike204" type="bicycle" depart="2963.99" departLane="best">
+        <routeDistribution last="0">
+            <route cost="123.79" probability="1.00000000" edges="4218426#4 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike205" type="bicycle" depart="2978.52" departLane="best">
+        <routeDistribution last="0">
+            <route cost="115.90" probability="1.00000000" edges="4824704#0 -4824704#0 4824702#0 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 4824567#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike206" type="bicycle" depart="2993.04" departLane="best">
+        <routeDistribution last="0">
+            <route cost="201.54" probability="1.00000000" edges="439942510 265499418 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 138419767#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike207" type="bicycle" depart="3007.57" departLane="best">
+        <routeDistribution last="0">
+            <route cost="52.75" probability="1.00000000" edges="130784151#0 130784151#1 130764246#0 130764246#1 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 -140772396#7 -140772396#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike208" type="bicycle" depart="3022.10" departLane="best">
+        <routeDistribution last="0">
+            <route cost="95.50" probability="1.00000000" edges="138347514#0 138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 -140772396#8 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 209114520#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike209" type="bicycle" depart="3036.63" departLane="best">
+        <routeDistribution last="0">
+            <route cost="129.85" probability="1.00000000" edges="4828724#0 4828724#1 4828724#2 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 98428996#0 98428996#1 98428996#2 -371146256 -4218501#1 -4218501#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike210" type="bicycle" depart="3051.16" departLane="best">
+        <routeDistribution last="0">
+            <route cost="231.93" probability="1.00000000" edges="149540140#0 -149540140#0 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4221194#4 4221194#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike211" type="bicycle" depart="3065.69" departLane="best">
+        <routeDistribution last="0">
+            <route cost="113.45" probability="1.00000000" edges="130764246#0 -130764246#0 130764244#0 130764244#1 4756455#2 4756455#4 4724425"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike213" type="bicycle" depart="3094.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="230.86" probability="1.00000000" edges="43324938#2 43324938#3 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1 -130764246#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike215" type="bicycle" depart="3123.81" departLane="best">
+        <routeDistribution last="0">
+            <route cost="94.91" probability="1.00000000" edges="-4824572 4824573#0 4824573#1 4824573#2 4824573#3 153897364#2 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1 148711386 209114498#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike216" type="bicycle" depart="3138.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="44.55" probability="1.00000000" edges="-96136748#1 96136748#1 96136747#0 96136747#1 142517769#0 142517769#1 142517769#2 371146247 371146249 4218426#4 84657869#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike218" type="bicycle" depart="3167.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="117.61" probability="1.00000000" edges="138347529#0 130737743 138347514#0 138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 -4218501#1 -4218501#0 4828840#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike219" type="bicycle" depart="3181.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="75.80" probability="1.00000000" edges="209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 138347489#5 138347489#6 4824703#1 4824703#2 4824703#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike220" type="bicycle" depart="3196.46" departLane="best">
+        <routeDistribution last="0">
+            <route cost="109.58" probability="1.00000000" edges="439027698#0 439027698#1 314789427 88111450 138478958#3 4756454#1 314789426#1 314789426#2 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike221" type="bicycle" depart="3210.98" departLane="best">
+        <routeDistribution last="0">
+            <route cost="38.91" probability="1.00000000" edges="314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 371146256 84657867"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike223" type="bicycle" depart="3240.04" departLane="best">
+        <routeDistribution last="0">
+            <route cost="92.66" probability="1.00000000" edges="4726268 450074239 4824557#0 4824557#1 148711386 209114498#0 209114498#1 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 450074244 209114514#0 209114514#1 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike224" type="bicycle" depart="3254.57" departLane="best">
+        <routeDistribution last="0">
+            <route cost="277.54" probability="1.00000000" edges="4824710 25885524 96136748#0 96136748#1 96136747#0 96136747#1 371146256 84657867 314994947#0 314994947#1 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1 314789428#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike225" type="bicycle" depart="3269.10" departLane="best">
+        <routeDistribution last="0">
+            <route cost="94.74" probability="1.00000000" edges="59851743#2 59851743#3 84657864#2 314789430 84657872#0 84657872#1 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 4726268 450074239 4824557#0 4824557#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike227" type="bicycle" depart="3298.16" departLane="best">
+        <routeDistribution last="0">
+            <route cost="93.41" probability="1.00000000" edges="138347514#1 314789426#3 314789428#0 314789428#1 137275200#0 137275200#1 4652507#0 4652507#1 4652507#2 4652507#3 450074243 90697744 265499418 314789435#1 4877725 314789433#4 66227388#0 66227388#1 4726271#0 4726271#1 43324938#1 43324938#2 43324938#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike229" type="bicycle" depart="3327.22" departLane="best">
+        <routeDistribution last="0">
+            <route cost="91.18" probability="1.00000000" edges="4218426#0 4218426#1 4218426#4 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 140772396#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike230" type="bicycle" depart="3341.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="148.04" probability="1.00000000" edges="-260923013#1 -260923013#0 4760369#0 4221194#1 4221194#2 4834297 -142517768#3 -142517768#2 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 140772448#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike232" type="bicycle" depart="3370.81" departLane="best">
+        <routeDistribution last="0">
+            <route cost="75.01" probability="1.00000000" edges="27557419#0 27557419#1 140772396#6 209114515#2 209114515#3 439942510 265499418 314789435#1 314789436#0 314789436#1 84657866#0 84657866#1 84657866#2 84657865 98428996#0 98428996#1 98428996#2 -371146256 -96136747#1 -96136747#0 -96136748#1 -96136748#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike233" type="bicycle" depart="3385.34" departLane="best">
+        <routeDistribution last="0">
+            <route cost="100.75" probability="1.00000000" edges="138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 209114514#2 209114514#3 439942512 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 138419768#1 438648464 4723926"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike234" type="bicycle" depart="3399.87" departLane="best">
+        <routeDistribution last="0">
+            <route cost="88.69" probability="1.00000000" edges="4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 -142517768#0 -4693898#3 -4693898#2 -4693898#1 -4693898#0 152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 138347489#5 138347489#6 4824703#1 4824703#2 149540140#0 149540140#1 149540140#2 -149540140#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike235" type="bicycle" depart="3414.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="247.97" probability="1.00000000" edges="149539965#1 149539965#4 371146247 371146249 4218426#4 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 142517770 27729257#0 27729257#1 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 4824568#2 138347514#0 138347514#1 314789426#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike236" type="bicycle" depart="3428.93" departLane="best">
+        <routeDistribution last="0">
+            <route cost="309.59" probability="1.00000000" edges="149540140#1 -149540140#1 -149540140#0 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 142356191#4 149357425#0 149357439 -142519288#1 -142519288#0 -138419767#1 -138419767#0 138478958#3 138478958#4 138478958#5 138347529#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike237" type="bicycle" depart="3443.45" departLane="best">
+        <routeDistribution last="0">
+            <route cost="48.82" probability="1.00000000" edges="152445636#0 152445636#1 152445636#2 152445636#3 4726265 665610741 209114497 4726269 450074238 4726271#0 4726271#1 138347489#0 138347489#1 138347489#2 138347489#3 138347489#4 140772448#0 140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 671832297#0 671832297#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike238" type="bicycle" depart="3457.98" departLane="best">
+        <routeDistribution last="0">
+            <route cost="124.83" probability="1.00000000" edges="314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 314789433#0 314789433#1 314789433#4 66227388#0 66227388#1 27557419#0 27557419#1 27557419#2 27557419#3 90697745 335993897 265499402#0 265499402#1 265499402#2 265499402#3 265499402#4 138419768#0 138419768#1 438648464 4723926"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike240" type="bicycle" depart="3487.04" departLane="best">
+        <routeDistribution last="0">
+            <route cost="130.97" probability="1.00000000" edges="142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824568#0 130784151#1 130764246#0 130764246#1 -130764246#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike242" type="bicycle" depart="3516.10" departLane="best">
+        <routeDistribution last="0">
+            <route cost="50.49" probability="1.00000000" edges="4828724#2 84657870#1 84657870#2 84657869#2 314789432 138347505#0 138347505#2 314789437#0 314789437#1 314789437#2 138347498 59851743#1 314789436#1 84657866#0 84657866#1 84657866#2 84657869#0 84657869#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike243" type="bicycle" depart="3530.63" departLane="best">
+        <routeDistribution last="0">
+            <route cost="243.09" probability="1.00000000" edges="149540140#2 -149540140#2 -149540140#1 -149540140#0 4824703#5 4824702#1 4824702#2 132964155#0 132964155#1 211674510 314789435#1 84657864#0 84657864#1 84657864#2 314789430 84657872#0 84657872#1 4693898#0 4693898#1 4693898#2 4693898#3 142517768#0 142517768#1 142517768#3 142517768#4 142517768#6 142517768#7 142356191#2 142356191#3 4221194#0 4221194#1 4221194#2 4221194#3 4824567#0 4824567#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike245" type="bicycle" depart="3559.69" departLane="best">
+        <routeDistribution last="0">
+            <route cost="58.51" probability="1.00000000" edges="137275200#1 4652507#0 4652507#1 -140772396#8 209114514#2 209114514#3 439942512 335993897 209114516 209114520#0 209114520#1 209114520#2 209114520#3 138419764"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike246" type="bicycle" depart="3574.22" departLane="best">
+        <routeDistribution last="0">
+            <route cost="18.71" probability="1.00000000" edges="153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 140772396#8 -140772396#8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bike247" type="bicycle" depart="3588.75" departLane="best">
+        <routeDistribution last="0">
+            <route cost="18.53" probability="1.00000000" edges="140772448#1 140772448#2 140772448#3 140772448#4 140772448#5 153897364#5 153897364#6 153897364#7 153897364#8 314789414 66227390#0 66227390#2 209114515#0 209114515#1 140772396#7 140772396#8 4652507#2 4652507#3"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

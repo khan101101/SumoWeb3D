@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-07-14 20:17:49.141329 by $Id$ via randomTrips.py
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram" vClass="tram">
+    </vType>
+    <trip id="tram0" depart="0.00" departLane="best" from="140769046#11" to="136991216#0" type="tram"/>
+    <trip id="tram2" depart="333.04" departLane="best" from="627457417#0" to="545234048" type="tram"/>
+    <trip id="tram4" depart="666.08" departLane="best" from="627457417#0" to="545234048" type="tram"/>
+    <trip id="tram6" depart="999.12" departLane="best" from="140769046#0" to="136991216#0" type="tram"/>
+    <trip id="tram7" depart="1165.64" departLane="best" from="137219545" to="136991216#0" type="tram"/>
+    <trip id="tram8" depart="1332.16" departLane="best" from="137219545" to="136991216#0" type="tram"/>
+    <trip id="tram10" depart="1665.20" departLane="best" from="140769046#0" to="545234048" type="tram"/>
+    <trip id="tram12" depart="1998.23" departLane="best" from="140769046#6" to="136991216#0" type="tram"/>
+    <trip id="tram13" depart="2164.75" departLane="best" from="140769046#0" to="627457417#12" type="tram"/>
+    <trip id="tram14" depart="2331.27" departLane="best" from="628383147#0" to="34169448#14" type="tram"/>
+    <trip id="tram15" depart="2497.79" departLane="best" from="140769046#0" to="136991216#0" type="tram"/>
+    <trip id="tram17" depart="2830.83" departLane="best" from="628383147#0" to="34169448#14" type="tram"/>
+    <trip id="tram19" depart="3163.87" departLane="best" from="627457417#0" to="34169448#14" type="tram"/>
+    <trip id="tram20" depart="3330.39" departLane="best" from="628383147#0" to="34169448#5" type="tram"/>
+</routes>
