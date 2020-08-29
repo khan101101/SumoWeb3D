@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-08-29 15:26:29.954668 by $Id$
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="0" edges="50126816#0 50126816#1 50126816#2 50126816#3 50126816#4 50126816#5 50126816#6 50126816#7 50126816#8 50126816#9 50126816#10 50126816#11 50126816#12 50126816#13" >
+        <stop busStop="119662819" duration="30.00" until="48.0"/>
+        <stop busStop="119662884" duration="30.00" until="131.0"/>
+    </route>
+    <route id="8" edges="-5924283#1 -5924283#0 -4812819 62225057#0 62225057#1 406645953#0 406645953#1 406645953#2 406645953#3 406645953#4 4812029#0 4812029#1 4812029#2 34248409#0 34248409#1 34248409#2" >
+        <stop busStop="-3403437340" duration="30.00" until="42.0"/>
+    </route>
+    <route id="4" edges="34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248411 210406807 211479827 4812819 5924283#0 5924283#1 5924284" >
+        <stop busStop="776633284" duration="30.00" until="44.0"/>
+        <stop busStop="3403547911" duration="30.00" until="166.0"/>
+    </route>
+    <route id="5" edges="50126816#13 60957422#0 60957422#1 60957422#2 60957422#3 60957422#4 60957422#5 60957422#6 60957422#7 60957422#8 60957422#9 60957422#10" >
+        <stop busStop="119662884" duration="30.00" until="32.0"/>
+        <stop busStop="763083606" duration="30.00" until="87.0"/>
+        <stop busStop="763083373" duration="30.00" until="172.0"/>
+    </route>
+    <route id="10" edges="34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248411 210406807 211479827 4812819 5924283#0 5924283#1 5924284" >
+        <stop busStop="776633284" duration="30.00" until="42.0"/>
+        <stop busStop="3403547911" duration="30.00" until="143.0"/>
+    </route>
+    <route id="6" edges="406645950 406645950 34248410#1 34248410#1" >
+        <stop busStop="3929620921" duration="30.00" until="40.0"/>
+    </route>
+    <route id="11" edges="406645950 406645950 34248410#1 34248410#1" >
+        <stop busStop="3929620921" duration="30.00" until="187.0"/>
+    </route>
+    <route id="13" edges="406645950 406645950 34248410#1 34248410#1" >
+        <stop busStop="3929620921" duration="30.00" until="376.0"/>
+    </route>
+    <route id="14" edges="406645950 406645950 34248410#1 34248410#1" >
+        <stop busStop="3929620921" duration="30.00" until="376.0"/>
+    </route>
+    <route id="15" edges="406645950 406645950 34248410#1 34248410#1" >
+        <stop busStop="3929620921" duration="30.00" until="376.0"/>
+    </route>
+    <flow id="pt_tram_11:0" type="pt_tram" route="0" begin="15.0" end="3615.0" period="600.0" line="11:0" departPos="0">
+        <param key="name" value="Tram 11: Fechenheim =&gt; Höchst"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_50:0" type="pt_bus" route="8" begin="165.0" end="3765.0" period="600.0" line="50:0" departPos="0">
+        <param key="name" value="Bus 50: Bockenheimer Warte =&gt; Unterliederbach West"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_50:1" type="pt_bus" route="4" begin="119.0" end="3719.0" period="600.0" line="50:1" departPos="0">
+        <param key="name" value="Bus 50: Unterliederbach West =&gt; Bockenheimer Warte"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_tram_11:1" type="pt_tram" route="5" begin="146.0" end="3746.0" period="600.0" line="11:1" departPos="0">
+        <param key="name" value="Tram 11: Höchst =&gt; Fechenheim"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_55:0" type="pt_bus" route="10" begin="303.0" end="3903.0" period="600.0" line="55:0" departPos="0">
+        <param key="name" value="Bus 55: Sindlingen Friedhof =&gt; Rödelheim Bahnhof"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_bus_51:0" type="pt_bus" route="6" begin="132.0" end="3732.0" period="600.0" line="51:0" departPos="0">
+        <param key="name" value="Bus 51: Niederrad Triftstraße =&gt; IP Höchst Tor Ost"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_68:0" type="pt_bus" route="11" begin="326.0" end="3926.0" period="600.0" line="68:0" departPos="0">
+        <param key="name" value="Bus 68: Kelsterbach Gesamtschule =&gt; Schwanheim Geisenheimer Straße (=&gt; Höchst Bahnhof)"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_59:0" type="pt_bus" route="13" begin="478.0" end="4078.0" period="600.0" line="59:0" departPos="0">
+        <param key="name" value="Bus 59: Griesheim Erzbergerstraße =&gt; Unterliederbach Cheruskerweg"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_n8:0" type="pt_bus" route="14" begin="819.0" end="4419.0" period="600.0" line="n8:0" departPos="0">
+        <param key="name" value="Nachtbus n8: Konstablerwache =&gt; Sindlingen =&gt; Konstablerwache"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_54:0" type="pt_bus" route="15" begin="1160.0" end="4760.0" period="600.0" line="54:0" departPos="0">
+        <param key="name" value="Bus 54: Griesheim Bf =&gt; Sindlingen"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+</routes>

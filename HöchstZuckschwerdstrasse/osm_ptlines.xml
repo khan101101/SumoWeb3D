@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/29/20 15:26:19 by SUMO netconvert Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\JTech%20Global\Sumo\2020-08-29-15-26-12\osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+        <crossings.guess value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <ptLine id="0" name="Tram 11: Fechenheim =&gt; Höchst" line="11" type="tram" completeness="0.05">
+        <busStop id="119662819" name="Tillystraße"/>
+        <busStop id="119662884" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="1" name="Bus 54: Sindlingen =&gt; Griesheim Bf" line="54" type="bus" completeness="0.03">
+        <route edges="34248409#3"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+    </ptLine>
+    <ptLine id="2" name="Bus 51: IP Höchst Tor Ost =&gt; Niederrad Triftstraße" line="51" type="bus" completeness="0.03">
+        <route edges="34248409#3"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+    </ptLine>
+    <ptLine id="3" name="Bus 55: Rödelheim Bahnhof =&gt; Sindlingen Friedhof" line="55" type="bus" completeness="0.04">
+        <route edges="-5924283#1"/>
+        <busStop id="-3403437340" name="Zuckschwerdt-/Bauhofstraße"/>
+    </ptLine>
+    <ptLine id="4" name="Bus 50: Unterliederbach West =&gt; Bockenheimer Warte" line="50" type="bus" completeness="0.09">
+        <route edges="34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1 62333277 249888432 211479827 4812819 5924283#0 5924283#1 5924284"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+        <busStop id="3403547911" name="Auerstraße"/>
+    </ptLine>
+    <ptLine id="5" name="Tram 11: Höchst =&gt; Fechenheim" line="11" type="tram" completeness="0.07">
+        <busStop id="119662884" name="Zuckschwerdtstraße"/>
+        <busStop id="763083606" name="Bolongaropalast"/>
+        <busStop id="763083373" name="Tillystraße"/>
+    </ptLine>
+    <ptLine id="6" name="Bus 51: Niederrad Triftstraße =&gt; IP Höchst Tor Ost" line="51" type="bus" completeness="0.07">
+        <route edges="406645950 406645949#0 406645949#1 406645949#2 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1"/>
+        <busStop id="3929620921" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="7" name="Bus 58: Flughafen Terminal 1 =&gt; Eschborn West" line="58" type="bus" completeness="0.03">
+        <route edges="5924284"/>
+        <busStop id="3403547911" name="Auerstraße"/>
+    </ptLine>
+    <ptLine id="8" name="Bus 50: Bockenheimer Warte =&gt; Unterliederbach West" line="50" type="bus" completeness="0.08">
+        <route edges="-5924283#1 -5924283#0 -4812819 62225057#0 62225057#1 406645953#0 406645953#1 406645953#2 406645953#3 406645953#4 4812029#0 4812029#1 4812029#2 34248409#0 34248409#1 34248409#2 34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1"/>
+        <busStop id="-3403437340" name="Zuckschwerdt-/Bauhofstraße"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="9" name="Nachtbus n1: Konstablerwache =&gt; Höchst =&gt; Konstablerwache" line="n1" type="bus" completeness="0.01">
+        <route edges="5924284"/>
+        <busStop id="3403547911" name="Auerstraße"/>
+    </ptLine>
+    <ptLine id="10" name="Bus 55: Sindlingen Friedhof =&gt; Rödelheim Bahnhof" line="55" type="bus" completeness="0.13">
+        <route edges="34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1 62333277 249888432 211479827 4812819 5924283#0 5924283#1 5924284"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+        <busStop id="3403547911" name="Auerstraße"/>
+    </ptLine>
+    <ptLine id="11" name="Bus 68: Kelsterbach Gesamtschule =&gt; Schwanheim Geisenheimer Straße (=&gt; Höchst Bahnhof)" line="68" type="bus" completeness="0.08">
+        <route edges="406645950 406645949#0 406645949#1 406645949#2 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1"/>
+        <busStop id="3929620921" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="12" name="Bus 59: Unterliederbach Cheruskerweg =&gt; Griesheim Erzbergerstraße" line="59" type="bus" completeness="0.03">
+        <route edges="34248409#3"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+    </ptLine>
+    <ptLine id="13" name="Bus 59: Griesheim Erzbergerstraße =&gt; Unterliederbach Cheruskerweg" line="59" type="bus" completeness="0.08">
+        <route edges="406645950 406645949#0 406645949#1 406645949#2 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1"/>
+        <busStop id="3929620921" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="14" name="Nachtbus n8: Konstablerwache =&gt; Sindlingen =&gt; Konstablerwache" line="n8" type="bus" completeness="0.02">
+        <route edges="406645950 406645949#0 406645949#1 406645949#2 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1"/>
+        <busStop id="3929620921" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="15" name="Bus 54: Griesheim Bf =&gt; Sindlingen" line="54" type="bus" completeness="0.06">
+        <route edges="406645950 406645949#0 406645949#1 406645949#2 13008851#0 13008851#1 425899625#0 425899625#1 34248410#0 34248410#1"/>
+        <busStop id="3929620921" name="Ludwig-Scriba-Straße"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="16" name="Bus 53: Ludwig-Scriba-Straße =&gt; Zeilsheim Bf" line="53" type="bus" completeness="0.07">
+        <route edges="34248410#1"/>
+        <busStop id="776633404" name="Zuckschwerdtstraße"/>
+    </ptLine>
+    <ptLine id="17" name="Bus 68: Höchst Bahnhof =&gt; Kelsterbach Gesamtschule" line="68" type="bus" completeness="0.04">
+        <route edges="34248409#3"/>
+        <busStop id="776633284" name="Ludwig-Scriba-Straße"/>
+    </ptLine>
+</additional>

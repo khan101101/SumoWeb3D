@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/29/20 15:26:19 by SUMO Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+        <additional-files value="osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="vehroutes.xml"/>
+        <stop-output value="stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <error-log value="trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" type="pt_tram" depart="15.00" departLane="0" arrival="146.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="15.00" probability="0" edges="50126816#0 50126816#0 50126816#13 50126816#13"/>
+            <route edges="50126816#0 50126816#1 50126816#2 50126816#3 50126816#4 50126816#5 50126816#6 50126816#7 50126816#8 50126816#9 50126816#10 50126816#11 50126816#12 50126816#13"/>
+        </routeDistribution>
+        <stop busStop="119662819" duration="30.00"/>
+        <stop busStop="119662884" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="8" type="pt_bus" depart="165.00" departLane="1" arrival="306.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="165.00" probability="0" edges="-5924283#1 -5924283#1 34248409#3 34248410#1 34248410#1"/>
+            <route edges="-5924283#1 -5924283#0 -4812819 62225057#0 62225057#1 406645953#0 406645953#1 406645953#2 406645953#3 406645953#4 4812029#0 4812029#1 4812029#2 34248409#0 34248409#1 34248409#2"/>
+        </routeDistribution>
+        <stop busStop="-3403437340" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="4" type="pt_bus" depart="119.00" departLane="2" arrival="306.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="119.00" probability="0" edges="34248409#3 34248409#3 34248410#1 5924284 5924284"/>
+            <route edges="34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248411 210406807 211479827 4812819 5924283#0 5924283#1 5924284"/>
+        </routeDistribution>
+        <stop busStop="776633284" duration="30.00"/>
+        <stop busStop="3403547911" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="5" type="pt_tram" depart="146.00" departLane="0" arrival="331.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="146.00" probability="0" edges="50126816#13 50126816#13 60957422#6 60957422#10 60957422#10"/>
+            <route edges="50126816#13 60957422#0 60957422#1 60957422#2 60957422#3 60957422#4 60957422#5 60957422#6 60957422#7 60957422#8 60957422#9 60957422#10"/>
+        </routeDistribution>
+        <stop busStop="119662884" duration="30.00"/>
+        <stop busStop="763083606" duration="30.00"/>
+        <stop busStop="763083373" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="10" type="pt_bus" depart="303.00" departLane="2" arrival="467.00">
+        <routeDistribution>
+            <route replacedOnEdge="" replacedAtTime="303.00" probability="0" edges="34248409#3 34248409#3 34248410#1 5924284 5924284"/>
+            <route edges="34248409#3 406645948 13008859#0 13008859#1 13008859#2 13008859#3 13008859#4 13008851#0 13008851#1 425899625#0 425899625#1 34248411 210406807 211479827 4812819 5924283#0 5924283#1 5924284"/>
+        </routeDistribution>
+        <stop busStop="776633284" duration="30.00"/>
+        <stop busStop="3403547911" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="6" type="pt_bus" depart="132.00" departLane="2" arrival="784.00">
+        <route edges="406645950 406645950 34248410#1 34248410#1"/>
+        <stop busStop="3929620921" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="11" type="pt_bus" depart="326.00" departLane="2" arrival="1125.00">
+        <route edges="406645950 406645950 34248410#1 34248410#1"/>
+        <stop busStop="3929620921" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="13" type="pt_bus" depart="478.00" departLane="2" arrival="1466.00">
+        <route edges="406645950 406645950 34248410#1 34248410#1"/>
+        <stop busStop="3929620921" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="14" type="pt_bus" depart="819.00" departLane="2" arrival="1807.00">
+        <route edges="406645950 406645950 34248410#1 34248410#1"/>
+        <stop busStop="3929620921" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="15" type="pt_bus" depart="1160.00" departLane="2" arrival="2148.00">
+        <route edges="406645950 406645950 34248410#1 34248410#1"/>
+        <stop busStop="3929620921" duration="30.00"/>
+    </vehicle>
+
+</routes>

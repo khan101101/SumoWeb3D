@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-08-29 15:26:30.666016 by $Id$ via randomTrips.py
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus">
+    </vType>
+    <trip id="bus2" depart="265.77" departLane="best" from="209235277#0" to="323149841#3" type="bus"/>
+    <trip id="bus8" depart="1063.07" departLane="best" from="13008859#1" to="323149841#3" type="bus"/>
+    <trip id="bus9" depart="1195.96" departLane="best" from="406645950" to="323149841#3" type="bus"/>
+    <trip id="bus10" depart="1328.84" departLane="best" from="13008859#2" to="323149841#3" type="bus"/>
+    <trip id="bus11" depart="1461.72" departLane="best" from="5924282" to="13008849#3" type="bus"/>
+    <trip id="bus13" depart="1727.49" departLane="best" from="13008859#0" to="323149841#3" type="bus"/>
+    <trip id="bus14" depart="1860.37" departLane="best" from="13008851#0" to="323149841#3" type="bus"/>
+    <trip id="bus17" depart="2259.03" departLane="best" from="5924282" to="13008849#3" type="bus"/>
+    <trip id="bus21" depart="2790.56" departLane="best" from="5924282" to="13008849#3" type="bus"/>
+    <trip id="bus23" depart="3056.33" departLane="best" from="5924282" to="13008849#3" type="bus"/>
+    <trip id="bus25" depart="3322.10" departLane="best" from="209235277#0" to="323149841#3" type="bus"/>
+    <trip id="bus26" depart="3454.98" departLane="best" from="209235277#0" to="323149841#3" type="bus"/>
+    <trip id="bus27" depart="3587.87" departLane="best" from="406645950" to="323149841#3" type="bus"/>
+</routes>

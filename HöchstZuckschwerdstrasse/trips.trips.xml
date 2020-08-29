@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-08-29 15:26:19.432821 by $Id$
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0" type="pt_tram" depart="15" departLane="best" from="50126816#0" to="50126816#13">
+        <stop busStop="119662819" duration="30"/>
+        <stop busStop="119662884" duration="30"/>
+    </trip>
+    <trip id="4" type="pt_bus" depart="119" departLane="best" from="34248409#3" to="5924284">
+        <stop busStop="776633284" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+        <stop busStop="3403547911" duration="30"/>
+    </trip>
+    <trip id="5" type="pt_tram" depart="131" departLane="best" from="50126816#13" to="60957422#10">
+        <stop busStop="119662884" duration="30"/>
+        <stop busStop="763083606" duration="30"/>
+        <stop busStop="763083373" duration="30"/>
+    </trip>
+    <trip id="6" type="pt_bus" depart="132" departLane="best" from="406645950" to="34248410#1">
+        <stop busStop="3929620921" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+    </trip>
+    <trip id="8" type="pt_bus" depart="165" departLane="best" from="-5924283#1" to="34248410#1">
+        <stop busStop="-3403437340" duration="30"/>
+        <stop busStop="776633284" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+    </trip>
+    <trip id="10" type="pt_bus" depart="303" departLane="best" from="34248409#3" to="5924284">
+        <stop busStop="776633284" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+        <stop busStop="3403547911" duration="30"/>
+    </trip>
+    <trip id="11" type="pt_bus" depart="326" departLane="best" from="406645950" to="34248410#1">
+        <stop busStop="3929620921" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+    </trip>
+    <trip id="13" type="pt_bus" depart="383" departLane="best" from="406645950" to="34248410#1">
+        <stop busStop="3929620921" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+    </trip>
+    <trip id="14" type="pt_bus" depart="389" departLane="best" from="406645950" to="34248410#1">
+        <stop busStop="3929620921" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+    </trip>
+    <trip id="15" type="pt_bus" depart="406" departLane="best" from="406645950" to="34248410#1">
+        <stop busStop="3929620921" duration="30"/>
+        <stop busStop="776633404" duration="30"/>
+    </trip>
+</routes>

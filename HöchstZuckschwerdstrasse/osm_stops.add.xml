@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/29/20 15:26:19 by SUMO netconvert Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Program%20Files%20(x86)\DLR\Sumo\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\JTech%20Global\Sumo\2020-08-29-15-26-12\osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+        <crossings.guess value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="119662819" name="Tillystraße" lane="50126816#0_0" startPos="102.32" endPos="127.32" friendlyPos="true">
+        <access lane="389808131_0" pos="272.30" friendlyPos="1"/>
+        <access lane="311905726#7_0" pos="265.09" friendlyPos="1"/>
+        <access lane="13008849#3_0" pos="211.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="119662884" name="Zuckschwerdtstraße" lane="50126816#13_0" startPos="0.00" endPos="3.49" friendlyPos="true">
+        <access lane="573555404#9_0" pos="0.00" friendlyPos="1"/>
+        <access lane="573555404#8_0" pos="0.20" friendlyPos="1"/>
+        <access lane="389801985#1_0" pos="0.10" friendlyPos="1"/>
+        <access lane="573555404#7_0" pos="5.61" friendlyPos="1"/>
+        <access lane="389801985#4_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3392426794" name="Bolongaropalast" lane="4812029#0_1" startPos="33.67" endPos="48.67" friendlyPos="true"/>
+    <busStop id="-3403437340" name="Zuckschwerdt-/Bauhofstraße" lane="-5924283#1_1" startPos="36.28" endPos="51.28" friendlyPos="true"/>
+    <busStop id="3403547911" name="Auerstraße" lane="5924284_2" startPos="0.00" endPos="6.50" friendlyPos="true"/>
+    <busStop id="3929620921" name="Ludwig-Scriba-Straße" lane="406645950_2" startPos="19.77" endPos="34.77" friendlyPos="true"/>
+    <busStop id="763083373" name="Tillystraße" lane="60957422#10_0" startPos="276.50" endPos="301.50" friendlyPos="true">
+        <access lane="389808131_0" pos="280.53" friendlyPos="1"/>
+        <access lane="311905726#7_0" pos="265.70" friendlyPos="1"/>
+        <access lane="13008849#3_0" pos="211.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="763083375" name="Zuckschwerdtstraße" lane="7996705#1_0" startPos="0.00" endPos="23.91" friendlyPos="true">
+        <access lane="573555404#9_0" pos="6.50" friendlyPos="1"/>
+        <access lane="389187600#0_0" pos="8.86" friendlyPos="1"/>
+        <access lane="573555404#10_0" pos="0.00" friendlyPos="1"/>
+        <access lane="573555404#8_0" pos="0.20" friendlyPos="1"/>
+        <access lane="34248410#1_0" pos="8.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="763083606" name="Bolongaropalast" lane="60957422#6_0" startPos="71.21" endPos="96.21" friendlyPos="true">
+        <access lane="389801985#13_0" pos="31.90" friendlyPos="1"/>
+        <access lane="4812029#0_0" pos="37.70" friendlyPos="1"/>
+        <access lane="539246755_0" pos="0.00" friendlyPos="1"/>
+        <access lane="389801985#14_0" pos="0.00" friendlyPos="1"/>
+        <access lane="389801985#15_0" pos="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="776633284" name="Ludwig-Scriba-Straße" lane="34248409#3_2" startPos="38.63" endPos="53.26" friendlyPos="true"/>
+    <busStop id="776633404" name="Zuckschwerdtstraße" lane="34248410#1_0" startPos="5.45" endPos="12.95" friendlyPos="true"/>
+</additional>
